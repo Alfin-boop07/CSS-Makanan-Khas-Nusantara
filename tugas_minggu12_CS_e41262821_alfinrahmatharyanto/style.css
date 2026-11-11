@@ -1,0 +1,163 @@
+/* --- Gaya umum --- */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  background-color: #fff7ea;
+  color: #3a2418;
+  line-height: 1.6;
+}
+
+/* --- Header --- */
+header {
+  background-color: #9b2d1f;
+  color: #fff;
+  text-align: center;
+  padding: 28px 16px;
+  border-bottom: 6px solid #f2a900;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.slogan {
+  margin: 6px 0 0;
+  font-style: italic;
+  color: #ffe3b0;
+}
+
+/* --- Navigasi --- */
+nav {
+  background-color: #f2a900;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #3a2418;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 12px;
+}
+
+nav a:hover {
+  color: #9b2d1f;
+  text-decoration: underline;
+}
+
+/* --- Konten utama --- */
+main {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+section, article, address {
+  background-color: #fff;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+h2 {
+  color: #9b2d1f;
+  border-bottom: 2px solid #f2a900;
+  padding-bottom: 4px;
+  margin-top: 0;
+}
+
+/* --- Kartu menu (flexbox) --- */
+.menu-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.menu {
+  flex: 1 1 180px;
+  background-color: #fff1d6;
+  border-left: 6px solid #9b2d1f;
+  border-radius: 6px;
+  padding: 12px 14px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.menu:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+}
+
+.menu img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  background-color: #f2d9a8;
+}
+
+.menu h3 {
+  margin: 0;
+  color: #9b2d1f;
+}
+
+.daerah {
+  margin: 0 0 4px;
+  font-style: italic;
+  color: #7a5a44;
+}
+
+.harga {
+  margin: 0;
+  font-weight: bold;
+  color: #c76a00;
+}
+
+/* --- Acara --- */
+article {
+  border-left: 6px solid #f2a900;
+}
+
+time {
+  font-weight: bold;
+  color: #c76a00;
+}
+
+.tombol {
+  display: inline-block;
+  background-color: #9b2d1f;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+.tombol:hover {
+  background-color: #f2a900;
+  color: #3a2418;
+}
+
+/* --- Alamat --- */
+address {
+  font-style: normal;
+  border-left: 6px solid #9b2d1f;
+}
+
+/* --- Footer --- */
+footer {
+  text-align: center;
+  background-color: #9b2d1f;
+  color: #ffe3b0;
+  padding: 14px 0;
+}
+
+/* --- Responsif --- */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
